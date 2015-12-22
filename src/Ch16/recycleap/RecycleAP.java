@@ -11,7 +11,8 @@ public class RecycleAP {
 		ParseTrash.fillBin("Trash.txt", bin);
 		Vector glassBin = new Vector(),
 				paperBin = new Vector(),
-				alBin = new Vector();
+				alBin = new Vector(),
+				cardBin = new Vector();
 		Enumeration sorter = bin.elements();
 		//Sort the Trash:
 		while(sorter.hasMoreElements()){
@@ -23,10 +24,13 @@ public class RecycleAP {
 				paperBin.addElement(t);
 			if(t instanceof Glass)
 				glassBin.addElement(t);
+			if(t instanceof Cardboard)
+				cardBin.addElement(t);
 		}
 		Trash.sumValue(alBin);
 		Trash.sumValue(paperBin);
 		Trash.sumValue(glassBin);
+		Trash.sumValue(cardBin);
 		Trash.sumValue(bin);
 	}
 
