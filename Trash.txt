@@ -1,0 +1,15 @@
+Ch16.trash.Glass:54
+Ch16.trash.Paper:22
+Ch16.trash.Paper:11
+Ch16.trash.Glass:17
+Ch16.trash.Aluminum:89
+Ch16.trash.Paper:88
+Ch16.trash.Aluminum:76
+Ch16.trash.Cardboard:96
+Ch16.trash.Aluminum:34
+Ch16.trash.Glass:11
+Ch16.trash.Glass:43
+Ch16.trash.Aluminum:27
+Ch16.trash.Cardboard:44
+Ch16.trash.Aluminum:18
+Ch16.trash.Paper:91
